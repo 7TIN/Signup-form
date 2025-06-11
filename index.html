@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up Form</title>
     <style>
-        body{
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
+
         .icons {
             display: flex;
             flex-direction: row;
             padding: 20px 20px;
+            cursor: pointer;
         }
 
         .icon img {
@@ -22,17 +24,19 @@
             border: 1px solid white;
             margin-right: 10px;
         }
-        .icon label{
+
+        .icon label {
             margin-right: 10px;
             font-size: medium;
             color: aliceblue;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-weight: 400;
 
         }
-        .icon{
-            display: flex; 
-            flex-direction: column; 
+
+        .icon {
+            display: flex;
+            flex-direction: column;
             align-items: center;
         }
 
@@ -50,6 +54,7 @@
             background: transparent;
             color: azure;
         }
+
         .form input::placeholder {
             color: rgb(171, 156, 156);
         }
@@ -82,11 +87,13 @@
             <input type="text" placeholder="Email" id="">
             <input type="text" placeholder="Password" id="">
             <input type="text" placeholder="Confirm Password" id="">
-            <button style="cursor: pointer; margin-top: 20px; border-radius: 10px; text-align: center; padding: 8px; background: conic-gradient(from 0deg, #ff9a9e, #fad0c4, #fbc2eb, #ff9a9e); transition: background 0.5s ease-in-out;">SignUp</button>
+            <button
+                style="cursor: pointer; margin-top: 20px; border:none; border-radius: 10px; text-align: center; padding: 8px; font-weight: 600; color: rgb(27, 25, 25); 
+                background: conic-gradient(from 0deg, #ff9a9e, #fad0c4, #fbc2eb, #ff9a9e); transition: background 0.5s ease-in-out;">SignUp</button>
 
         </form>
         <span style="margin: 10px ; color: white;"> Already have an account
-        <span style="color: rgb(255, 101, 45); font-weight: 600;">Login Here</span></span> 
+            <span style="color: rgb(255, 101, 45); font-weight: 600; cursor: pointer;">Login Here</span></span>
     </div>
 </body>
 
